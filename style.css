@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font: arial, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -46,6 +47,7 @@ table {
 img {
     width: 272;
     height: 92;
+    padding-top: 50px;
 }
 
 .logo {
@@ -67,12 +69,31 @@ a:hover {
 
  .headernav {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     color: black;
     list-style-type: none;
+    height: 60px;
+    padding-top: 20px;
 }
 
-/* .searchband {
+.topleftbuttons {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    margin-right: 1100px;
+    padding-left: 30px; 
+
+    
+}
+
+.toprightbuttons {
+    display: grid;
+    grid-template-columns: 60px 60px 130px 60px;
+     
+}
+
+
+
+.searchband {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +103,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}  */
+} 
 
 .footernav {
     display: flex;
@@ -92,7 +113,8 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-decoration: none;   
+    text-decoration: none;
+    padding-bottom: 20px;  
 }
 
 
