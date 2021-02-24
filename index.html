@@ -34,24 +34,22 @@
     
     <div class="searchband">
     <form action="/form/submit" method="GET"> 
-        <input  type="text" name="text" class="search" placeholder="Search here!">
+        <input  type="text" name="text" class="search" placeholder="">
         <!-- <input type="submit" name="submit" class="submit" value="Search"> -->
     </form>
     </div>
 
-    <div></div>
+    <div class="buttons">
         <button type="button"> Google Search </button>
         <button type="button"> I'm Feeling Lucky </button>
     </div>
 
-    <!-- <div></div>
-        <button type="button"> I'm Feeling Lucky </button>
-    </div> -->
+   
 
 
 
     <footer>
-        <nav>
+        <nav class="footernav">
             <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
                 <li>Advertising</li>
             </a>
@@ -69,31 +67,23 @@
             </a>
             <a href="https://policies.google.com/terms?hl=en&fg=1">
                 <li>Terms</li>
-            <div>
-                <ol>
-                    <a href="https://www.google.com/preferences?hl=en&fg=1">
-                        <li>Search settings</li>
-                    </a>
-                    <a href="https://www.google.com/advanced_search?hl=en&fg=1">
-                        <li>Advanced search</li>
-                    </a>
-                    <a href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1">
-                        <li>Your Data search</li>
-                    </a>
-                    <a href="https://www.google.com/history/optout?hl=en&fg=1">
-                        <li>Search history</li>
-                    </a>
-                    <a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">
-                        <li>Search help</li>
-                    </a>
-                    <a href="#">
-                        <li>Send feedback</li>
-                    </a>
-                </ol>
-            </div>
-        </nav>
+            </a>    
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Settings</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="https://www.google.com/preferences?hl=en&fg=1">Search settings</a>
+                  <a href="https://www.google.com/advanced_search?hl=en&fg=1">Advanced search</a>
+                  <a href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1">Your data search</a>
+                  <a href="https://www.google.com/history/optout?hl=en&fg=1">Search history</a>
+                  <a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">Search help</a>
+                  <a href="#">Send feedback</a>
+                  <a href="#">Link 3</a>
+                </div>
+            </nav>
+                   
     </footer>
    
+    <script src="main.js"></script> 
     
 </body>
 </html>
