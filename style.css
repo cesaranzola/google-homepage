@@ -100,6 +100,14 @@ a:hover {
     right: 40px;    
 }
 
+.dots {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -5px;
+    right: 85px;
+}
+
 
 .signin {
     all: revert;
@@ -167,7 +175,7 @@ a:hover {
 
 .bottomleft {
     position: fixed;
-    left: 20px;
+    left: 0px;
     bottom: 0;
     padding-bottom: 20px;
     padding: 15px;
@@ -190,10 +198,26 @@ a:hover {
 
 .bottomright {
     position: fixed;
-    right: 20px;
+    right: 0px;
     bottom: 0;
     padding-bottom: 20px;
     padding: 15px; 
+}
+
+.leftli {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1px;
+    padding-left: 20px;
+}
+
+.rightli { 
+    padding-top: 40px;
+    padding-right: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1px;
+    margin-top: 20px;
 }
 
 .botrightco {
